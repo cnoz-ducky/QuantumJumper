@@ -12,6 +12,20 @@ NOTE: Host needs to forward their port.
 
 NOTE: Client launches game first, once in main menu, then the host launches. (just weird unreal engine things)
 
+
+# **Installation for those who want to build**
+
+Open the solution and build
+
+Find ```quantumLeap.dll``` in ```x64\Release``` probably
+
+move it to ```TestWinform\bin\Release\net9.0-windows```
+
+run ```quantumJumper.exe```
+
+
+I apologize for the spaghetti it's a mixture of trial and error, self doing, and some AI helping just speed things up (haven't touched code in a while)
+
 # **How it Works**
 
 
