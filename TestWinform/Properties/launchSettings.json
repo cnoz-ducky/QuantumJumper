@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "TestWinform": {
-      "commandName": "Project",
-      "commandLineArgs": "-log"
-    }
-  }
-}
