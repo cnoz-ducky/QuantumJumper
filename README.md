@@ -21,7 +21,7 @@ Find ```quantumLeap.dll``` in ```x64\Release``` probably
 
 move it to ```TestWinform\bin\Release\net9.0-windows```
 
-run ```quantumJumper.exe```
+run ```quantumJumper.exe``` which is found in ```TestWinform\bin\Release\net9.0-windows```
 
 
 I apologize for the spaghetti it's a mixture of trial and error, self doing, and some AI helping just speed things up (haven't touched code in a while)
