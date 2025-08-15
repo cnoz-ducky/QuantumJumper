@@ -58,24 +58,33 @@ Command to be explored:
 ```open MapName?server```
 
 
-# **Known Issue**
+# **Known Issues**
 
 
 - The game IS buggy, it relies on the host to process the game and sometimes it does have issues
 
 - When a match finishes, the hosting user's game will crash*
+  - Probably can listen for final point scored
 - Not all maps are available at this time**
+  - Unsure why they won't load.
 - Not all Game modes are available at this time**
-- 2v2 is unavailable at this time**
-- When the game launches there's an error with EAC* (will not be able to enable EAC but should be able to clear error)
-- Player character model is the host's*
-- user names in-game are numbers (usually around 257)*
-- No Cosmetics**
+  - Haven't tested domination
+  - Tutorial/solo play is limited to TutorialArena
+- 2v2 is unavailable at this time*
+  -  Likely can be in-game flags for player count
+- When client uses minimap game crashes
+    -  Not sure of cause, when using local clients the host cannot open minimap but game runs, and client can use minimap
+- Player character model is the host's**
+  -  Need to figure out client server communication
+- user names in-game are numbers (usually around 257)**
+  -  Need to figure out client server communication
+- No Cosmetics
+  -  Need to figure out client server communication 
 
 * indicates there's a likely solution
 ** indicates it may be a while
 
-
+- ~~When the game launches there's an error with EAC* (will not be able to enable EAC but should be able to clear error)~~
 
 
 # **Maps**
